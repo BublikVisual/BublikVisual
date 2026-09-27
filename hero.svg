@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#21113f"/><stop offset=".55" stop-color="#10172e"/><stop offset="1" stop-color="#07080c"/></linearGradient><radialGradient id="r"><stop stop-color="#a85cff" stop-opacity=".75"/><stop offset="1" stop-color="#a85cff" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="760" fill="url(#g)"/><circle cx="850" cy="210" r="310" fill="url(#r)"/>
+<g opacity=".9"><path d="M0 570L190 430 370 520 550 350 760 500 930 390 1200 540V760H0Z" fill="#11162a"/><path d="M0 650L220 510 410 610 620 450 820 590 1030 470 1200 560V760H0Z" fill="#0b0e18"/></g>
+<g transform="translate(390 235)"><rect x="0" y="70" width="310" height="310" rx="18" fill="#141927" stroke="#a85cff" stroke-width="5"/><rect x="35" y="105" width="240" height="240" fill="#27304a"/><path d="M35 265L115 185 170 235 215 170 275 230V345H35Z" fill="#8b4ce8"/><rect x="115" y="145" width="52" height="52" fill="#c985ff"/><rect x="182" y="212" width="48" height="48" fill="#69e0ff"/><rect x="70" y="285" width="55" height="55" fill="#5bffb0"/></g>
+<text x="70" y="90" fill="#fff" font-family="Arial" font-size="30" font-weight="700" letter-spacing="8">BUBLIKVISUAL</text>
+</svg>

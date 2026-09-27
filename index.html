@@ -1,95 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="BublikVisual — визуалы для Minecraft 1.21+">
-  <title>BublikVisual — Minecraft Visuals</title>
-  <link rel="stylesheet" href="./style.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BublikVisual — Minecraft Visuals</title>
+<meta name="description" content="BublikVisual — дизайн и визуалы для Minecraft-проектов.">
+<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <header class="header">
-    <a class="logo" href="#home">Bublik<span>Visual</span></a>
-    <nav class="nav">
-      <a href="#home">Главная</a>
-      <a href="#portfolio">Работы</a>
-      <a href="#services">Услуги</a>
-      <a href="#about">О нас</a>
-      <a href="#contacts">Контакты</a>
-    </nav>
-    <a class="header-btn" href="https://t.me/bublikVusial" target="_blank" rel="noopener noreferrer">Заказать ↗</a>
-    <button class="menu-btn" type="button" aria-label="Открыть меню">☰</button>
-  </header>
+<div class="noise"></div>
+<header class="header">
+  <a class="logo" href="#home">Bublik<span>Visual</span></a>
+  <nav><a href="#home">Главная</a><a href="#portfolio">Работы</a><a href="#services">Услуги</a><a href="#about">О нас</a><a href="#contacts">Контакты</a></nav>
+  <a class="top-cta" href="https://t.me/bublikVusial" target="_blank" rel="noopener">Заказать ↗</a>
+  <button class="burger" aria-label="Меню">☰</button>
+</header>
 
-  <main id="home">
-    <section class="hero section">
-      <div class="eyebrow">ВИЗУАЛЫ ДЛЯ MINECRAFT 1.21+</div>
-      <h1>Твой проект.<br><em>Наш стиль.</em></h1>
-      <p class="lead">Создаём запоминающийся визуал для Minecraft-серверов, проектов и брендов. От идеи до готового результата.</p>
-      <div class="stats">
-        <span>✦ Работам 24ч</span>
-        <span>Средний старт 100%</span>
-        <span>Индивидуально</span>
-      </div>
-      <div class="hero-actions">
-        <a class="btn primary" href="#portfolio">Посмотреть работы</a>
-        <a class="btn ghost" href="https://t.me/bublikVusial" target="_blank" rel="noopener noreferrer">Обсудить проект ↗</a>
-      </div>
-      <div class="hero-note">CRAFTED FOR YOUR SERVER ✦</div>
-    </section>
+<main id="home">
+<section class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow">MINECRAFT VISUALS · 1.21+</div>
+    <h1>Твой проект.<br><i>Наш стиль.</i></h1>
+    <p>Делаем визуалы, которые выглядят как настоящий бренд: баннеры, превью, UI, ресурспаки и 3D-сцены.</p>
+    <div class="actions"><a class="btn purple" href="#portfolio">Смотреть работы</a><a class="btn glass" href="https://t.me/bublikVusial" target="_blank" rel="noopener">Обсудить проект ↗</a></div>
+    <div class="mini-stats"><b>24ч</b><span>быстрый старт</span><b>100%</b><span>индивидуально</span></div>
+  </div>
+  <div class="hero-art"><img src="./assets/hero.svg" alt="BublikVisual Minecraft visual"></div>
+</section>
 
-    <div class="ticker" aria-hidden="true">
-      <div>DESIGN • MINECRAFT • VISUALS • BUBLIKVISUAL • DESIGN • MINECRAFT • VISUALS • BUBLIKVISUAL •</div>
-    </div>
+<div class="marquee"><span>DESIGN ✦ MINECRAFT ✦ VISUALS ✦ BUBLIKVISUAL ✦ DESIGN ✦ MINECRAFT ✦ VISUALS ✦</span></div>
 
-    <section id="portfolio" class="section">
-      <div class="section-label">01 / ПОРТФОЛИО</div>
-      <h2>Работы, которые<br><em>говорят сами.</em></h2>
-      <p class="section-text">Каждый проект собираем с нуля под стиль твоего сервера и аудиторию.</p>
-      <div class="project-list">
-        <article class="project"><b>SERVER<br><em>IDENTITY</em></b><span>01 · Branding / Banner</span></article>
-        <article class="project"><b>PVP<br><em>ARENA</em></b><span>02 · Preview / Visual</span></article>
-        <article class="project"><b>RESOURCE<br><em>PACK</em></b><span>03 · UI / Textures</span></article>
-      </div>
-    </section>
+<section id="portfolio" class="section">
+  <div class="label">01 / ПОРТФОЛИО</div><h2>Работы, которые <i>говорят сами.</i></h2>
+  <p class="muted">Примеры направлений, в которых можем оформить твой Minecraft-проект.</p>
+  <div class="gallery">
+    <article class="card"><img src="./assets/server.svg" alt=""><div><small>01 · BRANDING</small><h3>Server Identity</h3></div></article>
+    <article class="card"><img src="./assets/arena.svg" alt=""><div><small>02 · PREVIEW</small><h3>PVP Arena</h3></div></article>
+    <article class="card"><img src="./assets/resource.svg" alt=""><div><small>03 · UI / TEXTURES</small><h3>Resource Pack</h3></div></article>
+  </div>
+</section>
 
-    <section id="services" class="section">
-      <div class="section-label">02 / УСЛУГИ</div>
-      <h2>Сделаем так,<br><em>как хочется.</em></h2>
-      <p class="section-text">Выбирай готовую услугу или расскажи идею — соберём решение под тебя.</p>
-      <div class="services">
-        <article><strong>✦</strong><h3>Баннеры</h3><p>Превью, баннеры и оформление соцсетей.</p><a href="https://t.me/bublikVusial" target="_blank" rel="noopener noreferrer">Подробнее →</a></article>
-        <article><strong>◇</strong><h3>Ресурспаки</h3><p>Текстуры, UI и предметы в едином стиле.</p><a href="https://t.me/bublikVusial" target="_blank" rel="noopener noreferrer">Подробнее →</a></article>
-        <article><strong>◆</strong><h3>3D-визуалы</h3><p>Персонажи, предметы и игровые сцены.</p><a href="https://t.me/bublikVusial" target="_blank" rel="noopener noreferrer">Подробнее →</a></article>
-        <article><strong>↗</strong><h3>Под ключ</h3><p>Полное оформление проекта от логотипа до UI.</p><a href="https://t.me/bublikVusial" target="_blank" rel="noopener noreferrer">Подробнее →</a></article>
-      </div>
-    </section>
+<section id="services" class="section">
+  <div class="label">02 / УСЛУГИ</div><h2>Сделаем так,<br><i>как хочется.</i></h2>
+  <div class="service-grid">
+    <a href="https://t.me/bublikVusial" target="_blank" rel="noopener"><span>✦</span><h3>Баннеры</h3><p>Превью, баннеры и оформление соцсетей.</p><b>Подробнее →</b></a>
+    <a href="https://t.me/bublikVusial" target="_blank" rel="noopener"><span>◇</span><h3>Ресурспаки</h3><p>Текстуры, UI и предметы в едином стиле.</p><b>Подробнее →</b></a>
+    <a href="https://t.me/bublikVusial" target="_blank" rel="noopener"><span>◆</span><h3>3D-визуалы</h3><p>Персонажи, предметы и игровые сцены.</p><b>Подробнее →</b></a>
+    <a href="https://t.me/bublikVusial" target="_blank" rel="noopener"><span>↗</span><h3>Под ключ</h3><p>Полное оформление проекта от логотипа до UI.</p><b>Подробнее →</b></a>
+  </div>
+</section>
 
-    <section id="about" class="section about">
-      <div class="section-label">03 / BUBLIKVISUAL</div>
-      <h2>Не просто<br><em>красиво.</em></h2>
-      <p class="section-text">Мы превращаем обычный Minecraft-проект в визуальный бренд, который хочется запомнить.</p>
-      <ul>
-        <li>✓ Индивидуальный дизайн</li>
-        <li>✓ Современная стилистика</li>
-        <li>✓ Быстрая коммуникация</li>
-      </ul>
-    </section>
+<section id="about" class="section about"><div class="label">03 / BUBLIKVISUAL</div><h2>Не просто <i>красиво.</i></h2><p class="muted big">Превращаем обычный Minecraft-проект в визуальный бренд, который хочется запомнить.</p><div class="checks"><span>✓ Индивидуальный дизайн</span><span>✓ Современная стилистика</span><span>✓ Быстрая коммуникация</span></div></section>
 
-    <section id="contacts" class="contact section">
-      <div class="section-label">04 / КОНТАКТЫ</div>
-      <h2>Есть идея?<br><em>Погнали.</em></h2>
-      <p>Расскажи, что хочешь сделать. Мы ответим и обсудим детали.</p>
-      <a class="contact-btn" href="https://t.me/bublikVusial" target="_blank" rel="noopener noreferrer">Написать нам ↗</a>
-      <div class="social">
-        <a href="#" aria-label="Discord">Discord</a>
-        <a href="https://t.me/bublikVusial" target="_blank" rel="noopener noreferrer">Telegram</a>
-        <a href="#" aria-label="YouTube">YouTube</a>
-      </div>
-    </section>
-  </main>
-
-  <footer>© 2026 BublikVisual · Minecraft Visuals</footer>
-  <script src="./script.js"></script>
-</body>
-</html>
+<section id="contacts" class="contact"><div class="label">04 / КОНТАКТЫ</div><h2>Есть идея?<br><i>Погнали.</i></h2><p>Расскажи, что хочешь сделать — обсудим детали в Telegram.</p><a class="contact-btn" href="https://t.me/bublikVusial" target="_blank" rel="noopener">Написать нам ↗</a><div class="social"><a href="https://t.me/bublikVusial" target="_blank" rel="noopener">Telegram</a><a href="#">Discord</a><a href="#">YouTube</a></div></section>
+</main>
+<footer>© 2026 BublikVisual · Minecraft Visuals</footer>
+<script src="./script.js"></script>
+</body></html>
