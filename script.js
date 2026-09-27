@@ -1,23 +1,19 @@
-const toggle = document.querySelector('.menu-toggle');
-const nav = document.querySelector('.nav');
-
-toggle.addEventListener('click', () => nav.classList.toggle('open'));
-
-document.querySelectorAll('.nav a').forEach(link => {
-  link.addEventListener('click', () => nav.classList.remove('open'));
+document.addEventListener("DOMContentLoaded", () => {
+  const button = document.querySelector(".menu-btn");
+  const nav = document.querySelector(".nav");
+  if (button && nav) {
+    button.addEventListener("click", () => {
+      nav.classList.toggle("open");
+      nav.style.display = nav.classList.contains("open") ? "flex" : "";
+      if (nav.classList.contains("open")) {
+        nav.style.position = "absolute";
+        nav.style.top = "70px";
+        nav.style.left = "0";
+        nav.style.right = "0";
+        nav.style.padding = "20px 5%";
+        nav.style.background = "#07080c";
+        nav.style.flexDirection = "column";
+      }
+    });
+  }
 });
-
-const sections = [...document.querySelectorAll('main section[id]')];
-const links = [...document.querySelectorAll('.nav a')];
-
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      links.forEach(link => link.classList.toggle(
-        'active', link.getAttribute('href') === '#' + entry.target.id
-      ));
-    }
-  });
-}, { rootMargin: '-35% 0px -55% 0px' });
-
-sections.forEach(section => observer.observe(section));
